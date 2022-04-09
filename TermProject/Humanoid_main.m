@@ -117,7 +117,7 @@ while(finish)
 
         %그래프 그리기
        
-        subplot(19,19,point)
+        % subplot(19,19,point)
         axis([-1.0 1.0 -1.0 1.0 -1.0 1.0])
         line([origin_pos(1) knee_pos(1)],[origin_pos(2) knee_pos(2)],[origin_pos(3) knee_pos(3)],'Linewidth',5,'Color','r') % 허벅지 그리기 
         line([knee_pos(1) anke_pos(1)],[knee_pos(2) anke_pos(2)],[knee_pos(3) anke_pos(3)],'Linewidth',5,'Color','bl') % 종아리 그리기
